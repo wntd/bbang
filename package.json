@@ -1,0 +1,24 @@
+{
+	"name": "bbang",
+	"author": "SSen <i@ssen.name>",
+	"version": "0.0.1",
+	"description": "library for Cakefile",
+	"tags" : [ "Cakefile", "coffee", "build" ],
+	"license" : "MIT",
+	"engines" : [ "node >= 0.8" ],
+	"main" : "./lib/bbang",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/iamssen/bbang.git"
+	},
+	"bugs" : {
+		"url" : "https://github.com/iamssen/bbang/issues"
+	},
+	"scripts" : { 
+		"test" : "cake test" 
+	},
+	"devDependencies": {
+		"should": "*",
+		"source-map-support" : "*"
+	}
+}
