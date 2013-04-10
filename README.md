@@ -1,0 +1,4 @@
+bbang
+=====
+
+Library for Cakefile
