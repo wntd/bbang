@@ -5,3 +5,4 @@
 # node
 *.log
 node_modules
+.idea

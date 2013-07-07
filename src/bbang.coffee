@@ -1,4 +1,5 @@
-{exec} = require('child_process')
+exec = require('child_process').exec
+os = require('os')
 
 exports.exec = (cmd, callback) ->
 	exe = exec(cmd)
@@ -11,6 +12,5 @@ exports.exec = (cmd, callback) ->
 			callback?()
 		else
 			console.log('!! process exited with code ' + code)
-			
 
-		
+exports.win = -> os.platform().toLowerCase().indexOf('windows') > -1
